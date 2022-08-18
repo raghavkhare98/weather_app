@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -23,7 +24,24 @@ nav div{
     justify-content: flex-end;
 }
 
-.hero-img{
+/*.hero-img{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/weather_hero.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}*/
+
+.hero-text{
+    font-family: 'Nunito Sans', 'sans-serif';
+    color: whitesmoke;
+    height: 93%;
+    width: 100%;
+}
+
+/**/
+.div-ex{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/weather_hero.jpg);
     height: 100%;
     width: 100%;
@@ -32,8 +50,42 @@ nav div{
     overflow: hidden;
 }
 
-.hero-text{
-    font-family: 'Nunito Sans', 'sans-serif';
-    color: whitesmoke;
+/*This class contains the search bar*/
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
 }
 
+/*Input bar*/
+
+.searchTerm {
+    width: 100%;
+    border: 6px solid #38598b;
+    border-right: none;
+    padding: 8px;
+    height: 3rem;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+}
+
+.searchButton {
+    width: 10%;
+    height: 3rem;
+    border: 1px solid #38598b;
+    background:#38598b;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap{
+    width: 30%;
+    margin-top: 1rem;
+}
+
+
+ 
