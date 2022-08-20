@@ -36,7 +36,7 @@ nav div{
     justify-content: flex-end;
 }
 
-<<<<<<< HEAD
+
 /*.hero-img{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/weather_hero.jpg);
     height: 100%;
@@ -57,13 +57,12 @@ nav div{
 .div-ex{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/weather_hero.jpg);
     height: 100%;
-}======
+}
  /* Main */
 
 .hero-img{
     
     /* height: 100%;
->>>>>>> 76e113af0615237f0cf5f1789159b48d8032e703
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -72,19 +71,18 @@ nav div{
     /* 1 rem = 16px */
 }
 
-<<<<<<< HEAD
+
 /*This class contains the search bar*/
 .search {
     width: 100%;
     position: relative;
     display: flex;
-=======
+}
 .hero-text{
     
     color: var(--cloud-color);
     margin-top: 8rem;
     font-size: 1rem;
->>>>>>> 76e113af0615237f0cf5f1789159b48d8032e703
 }
 
 /*Input bar*/
