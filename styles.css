@@ -35,53 +35,26 @@ nav div{
     display: flex;
     justify-content: flex-end;
 }
-
-
-/*.hero-img{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/weather_hero.jpg);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}*/
-
 .hero-text{
     font-family: 'Nunito Sans', 'sans-serif';
     color: whitesmoke;
-    height: 93%;
     width: 100%;
 }
 
-/**/
+
 .div-ex{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/weather_hero.jpg);
     height: 100%;
 }
  /* Main */
-
-.hero-img{
-    
-    /* height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    */
-    /* 1 rem = 16px */
-}
-
-
-/*This class contains the search bar*/
 .search {
     width: 100%;
     position: relative;
     display: flex;
 }
-.hero-text{
-    
+.hero-text{ 
     color: var(--cloud-color);
-    margin-top: 8rem;
+    margin-top: 7rem;
     font-size: 1rem;
 }
 
@@ -115,5 +88,12 @@ nav div{
     margin-top: 1rem;
 }
 
-
+.display-weather{
+    margin-top: 2rem;
+    text-align: left;
+    border: 2px solid red ;
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: rgb(79, 49, 161);
+}
  
